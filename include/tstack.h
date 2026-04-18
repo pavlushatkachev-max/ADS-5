@@ -7,6 +7,7 @@ class TStack {
  private:
   T arr[kSize];
   int top;
+
  public:
   TStack() : top(-1) {}
   int getSize() const { return top+1; }
